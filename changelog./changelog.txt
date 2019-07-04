@@ -1,1 +1,24 @@
-THIS IS A TEST
+DIRTYUNICORNS UPDATE
+
+- July Security Patch
+-mido: Update Graphics blobs from LA.UM.7.5.r1-04800-8x96.0
+-mido: Update Audio and Media blobs from LA.UM.7.5.r1-04800-8x96.0
+-mido: Set min gpu freq to 320mhz
+-base: Import Android Q activity animations
+- Add Option to Display Data Disabled Indicator Icon 
+- SystemUI: Added animation of switching between the power menu and the…
+-PhoneWindowManager: Set delay for screenshot shortcut to 0
+
+~Kernel changes
+ -iommu driver fixups
+ -media: v4l2-ioctl: Use a larger on-stack video copy buffer
+ -proc: Don't let Google Camera and Settings run in the background
+ -And many more dynamic cache improvements
+ - Merge upstreams from android/kernel/common
+
+
+
+
+
+
+
