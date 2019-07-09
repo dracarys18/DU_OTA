@@ -1,24 +1,40 @@
-DIRTYUNICORNS UPDATE
+DIRTY UNICORNS UPDATE
 
-- July Security Patch
--mido: Update Graphics blobs from LA.UM.7.5.r1-04800-8x96.0
--mido: Update Audio and Media blobs from LA.UM.7.5.r1-04800-8x96.0
--mido: Set min gpu freq to 320mhz
--base: Import Android Q activity animations
-- Add Option to Display Data Disabled Indicator Icon 
-- SystemUI: Added animation of switching between the power menu and the…
--PhoneWindowManager: Set delay for screenshot shortcut to 0
+- DU Version bump to 13.4
 
-~Kernel changes
- -iommu driver fixups
- -media: v4l2-ioctl: Use a larger on-stack video copy buffer
- -proc: Don't let Google Camera and Settings run in the background
- -And many more dynamic cache improvements
- - Merge upstreams from android/kernel/common
+~ vendor/xiaomi
+
+- msm8953-common: Use keymaster@3.0-impl from Oreo.
+
+- mido: Update blobs from 7.0/NRD90M/9.7.4
+
+- mido: Add custom dw9763 libs for 30fps video fix and 60 fps dark video fix
 
 
+~ device/xiaomi/mido
+
+- mido: Add mobile data user preference properties data reset to SIM1 after reboot fix
+
+- mido: Fix audio recording distortion
+
+- mido: Disable VSync for CPU rendered apps
+
+- mido: biometrics: Fix random crashes
+
+- Enable always on display option
 
 
+~ DU MY CHANGES
+
+- Moved battery estimates to QS header
+
+- Stable seek bar positioning
+
+- Add option to disable of screenshot shutter sound
+
+- Add kill button to notification guts 
+
+- Add  Reset battery stats button
 
 
 
