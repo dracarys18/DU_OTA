@@ -1,40 +1,47 @@
-DIRTY UNICORNS UPDATE
+Dirty Unicorns Update
 
-- DU Version bump to 13.4
+ROM source changes
 
-~ vendor/xiaomi
+-Merged August security patch 
+- Reworked Q clock from the begining and the auto color changing according to wallpaper should work now
+- Port Android Q style lock icon on the lockscreen
+- Import the rest of the animations from Pixel Q4 image
+- MediaCodecInfo: Add support for level 6.2
+- config: longer wifi scan interval
+- QS tiles: Update icons from Android Q
+- Performance: Memory Optimizations in UI
+- Improve scrolling cache
+- Support enforcing a minimum delay between notification sounds of an app.
+- Fix missing Batter icon in battery settings while using Q battery icon
+- search: Impliment external searching
+- Updated Audio,media,display HALs from LA.UM.7.6.r1-05500-89xx.0
 
-- msm8953-common: Use keymaster@3.0-impl from Oreo.
+Device side changes
 
-- mido: Update blobs from 7.0/NRD90M/9.7.4
+vendor:
+- msm8953-common: Update graphics stack from taimen-qpp4.190502.018
+- Update common blobs from Tissot
+- Update GPU driver version to v385
+- Update Perf blobs from Taimen Q Dp4
 
-- mido: Add custom dw9763 libs for 30fps video fix and 60 fps dark video fix
+DT:
+-Updated Carrierconfig from LA.UM.7.6.r1-05500-89xx.0
+-init: Increase maximum TCP buffer limits 
+-Enable rotation boost
 
+Kernel:
 
-~ device/xiaomi/mido
-
-- mido: Add mobile data user preference properties data reset to SIM1 after reboot fix
-
-- mido: Fix audio recording distortion
-
-- mido: Disable VSync for CPU rendered apps
-
-- mido: biometrics: Fix random crashes
-
-- Enable always on display option
-
-
-~ DU MY CHANGES
-
-- Moved battery estimates to QS header
-
-- Stable seek bar positioning
-
-- Add option to disable of screenshot shutter sound
-
-- Add kill button to notification guts 
-
-- Add  Reset battery stats button
+- Take it from https://t.me/rn4downloads/3116
 
 
 
+
+
+
+
+
+
+
+vendor/xiaomi
+
+*
