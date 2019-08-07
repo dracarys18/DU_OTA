@@ -1,47 +1,5 @@
-Dirty Unicorns Update
-
-ROM source changes
-
--Merged August security patch 
-- Reworked Q clock from the begining and the auto color changing according to wallpaper should work now
-- Port Android Q style lock icon on the lockscreen
-- Import the rest of the animations from Pixel Q4 image
-- MediaCodecInfo: Add support for level 6.2
-- config: longer wifi scan interval
-- QS tiles: Update icons from Android Q
-- Performance: Memory Optimizations in UI
-- Improve scrolling cache
-- Support enforcing a minimum delay between notification sounds of an app.
-- Fix missing Batter icon in battery settings while using Q battery icon
-- search: Impliment external searching
-- Updated Audio,media,display HALs from LA.UM.7.6.r1-05500-89xx.0
-
-Device side changes
-
-vendor:
-- msm8953-common: Update graphics stack from taimen-qpp4.190502.018
-- Update common blobs from Tissot
-- Update GPU driver version to v385
-- Update Perf blobs from Taimen Q Dp4
-
-DT:
--Updated Carrierconfig from LA.UM.7.6.r1-05500-89xx.0
--init: Increase maximum TCP buffer limits 
--Enable rotation boost
-
-Kernel:
-
-- Take it from https://t.me/rn4downloads/3116
-
-
-
-
-
-
-
-
-
-
-vendor/xiaomi
-
-*
+*THIS IS A HOTFIX UPDATE*
+- This is just a hotfix update for the last update which had few issues like
+  1.Kill Button in notification guts was soft rebooting the phone (fixed)
+  2. Settings fc when you click on DU Updater (fixed and nuked DU updater because it had some issues).
+Thanks for all testers and users for pointing it out.
