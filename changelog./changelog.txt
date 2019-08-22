@@ -1,5 +1,17 @@
-*THIS IS A HOTFIX UPDATE*
-- This is just a hotfix update for the last update which had few issues like
-  1.Kill Button in notification guts was soft rebooting the phone (fixed)
-  2. Settings fc when you click on DU Updater (fixed and nuked DU updater because it had some issues).
-Thanks for all testers and users for pointing it out.
+~Changes in device stuffs
+-Disable HMP and move to CFS
+-mido:post_boot: Adapt for CFS
+-Update msm_irqbalance from Q dp6
+-Update Perf stack from Q dp6
+-mido: camera: HACK: Hardcode preview fps range
+-mido: camera: HAL3: Use the largest fps range during video record
+-mido: overaly: Set google autofill service as default
+~DU My changes
+-Add neon like QS style
+-Add OOS like QS style
+-Add BlackAF theme 
+-Add Android Q sweer purple accent
+-Add an option to change the default GPU renderer
+-Align the weather and date on the locksreen according to the clock selection
+-Enabled the double tap to wake toggle
+-And some optimisations for UX 
