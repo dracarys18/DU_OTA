@@ -1,17 +1,13 @@
-~Changes in device stuffs
--Disable HMP and move to CFS
--mido:post_boot: Adapt for CFS
--Update msm_irqbalance from Q dp6
--Update Perf stack from Q dp6
--mido: camera: HACK: Hardcode preview fps range
--mido: camera: HAL3: Use the largest fps range during video record
--mido: overaly: Set google autofill service as default
-~DU My changes
--Add neon like QS style
--Add OOS like QS style
--Add BlackAF theme 
--Add Android Q sweer purple accent
--Add an option to change the default GPU renderer
--Align the weather and date on the locksreen according to the clock selection
--Enabled the double tap to wake toggle
--And some optimisations for UX 
+-September security Patch
+-Update ADSP and Audio blobs from OnePlus 3T
+-Switch back to vulkun blob from Taimen Pie
+-Update gfx (postprocessing) from AquariusX2
+-Update HALs from LA.UM.7.6.r1-05900-89xx.0
+-Add Long Screenshot support
+-Add Internal audio recording support
+-Enable SystemUI tuner options in Settings>System
+-Update apns from AOSP 
+-Switch to 100Hz timer in Kernel
+-Add maintainer's name in device info
+
+Join @notmemedo for bug reports and stuff
