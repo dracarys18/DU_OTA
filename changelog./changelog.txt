@@ -1,18 +1,14 @@
-Device/Kernel changes
-- Update Media Stack from  OnePlus3-user 9 PKQ1.181203.001 1907311932 release-keys
-- Update Fingerprint blobs mido: Update fingerprint blobs from mido-user 7.0 NRD90M 9.9.10
-- Update Perf blobs from LA.UM.7.5.r1-05300-8x96.0
-- Fixed few Qcamera2 stuffs
-- Update Graphics Postprocessing blobs from LA.UM.7.5.r1-05300-8x96.0
-- Force WhatsApp to Use HAL1
-- Upstream kernel to latest aosp/common sources
-- Don't let google camera run in the background
-
-DU side changes
-- Add one handed mode (Works only with navbar)
-- Unlock keystore with fingerprint after reboot
-- Smoother Upload and Download Animation
-- Make media seekbar bit sexier
-- Use seekbar to allow setting arbitrary animation values
-- Merge android source tag android-9.0.0_r48
-- Overhaul animations to make it quicker and smoother
+-October Security Patch
+-Enable power save config of system app
+-allow disabling quick settings on secure lock screens
+-Add unlinked ringtone and notification volumes
+-Add OneHandMode
+-Add exFAT FS support
+-Unlock keystore with fingerprint after reboot
+-telephony: Hack GSM and LTE signal strength
+-media_seekbar: make it sexy
+~Kernel
+- Upstream Kernel to latest google sources
+- Optimize boot time by detecting cards simultaneously
+- Fixed YouTube black screen bug
+- Dont let google camera run in the backgroud
