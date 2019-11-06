@@ -1,14 +1,7 @@
--October Security Patch
--Enable power save config of system app
--allow disabling quick settings on secure lock screens
--Add unlinked ringtone and notification volumes
--Add OneHandMode
--Add exFAT FS support
--Unlock keystore with fingerprint after reboot
--telephony: Hack GSM and LTE signal strength
--media_seekbar: make it sexy
-~Kernel
-- Upstream Kernel to latest google sources
-- Optimize boot time by detecting cards simultaneously
-- Fixed YouTube black screen bug
-- Dont let google camera run in the backgroud
+-November Security patch(Android 9 Release 50)
+-Fix Screenshot sound toggle
+-Volume panel visual improvements
+-Update graphics and Media blobs from Android 10 caf tag LA.UM.8.6.r1-01900-89xx.0  
+-GPU 415 driver
+-Fix slow wifi when bluetooth is connected
+-Upstream kernel to latest changes from android/common aosp
