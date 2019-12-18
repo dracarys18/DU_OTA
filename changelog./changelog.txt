@@ -1,6 +1,1 @@
-- last Update of DU pie.
-- December Patch Android 9 r51.
-- Fixed Encryption issue (Using cryptfshw HIDL).
-*Kernel side
-- Merged latest changes from Android Git
-- Merged latest ion driver from Sulthanxda (Thanks to @Zile995 for porting it to 3.18)
+Coming Soon!!
